@@ -18,14 +18,13 @@ generateBtn.addEventListener("click", writePassword);
 // function make for passwrod criteria
 function passwordProcess() {
   window.alert("Select Password Criteria!");
-  break;
 
   // password length criteria
   var passwordLength = window.prompt("Enter Leangth of Password:")
     console.log(passwordLength);
 
     if (passwordLength < 8) {
-
+        window.alert("Error: Must be at least 8 characters!")
     }
 
 }
