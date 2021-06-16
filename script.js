@@ -20,11 +20,14 @@ function passwordProcess() {
   window.alert("Select Password Criteria!");
 
   // password length criteria
-  var passwordLength = window.prompt("Enter Leangth of Password:")
-    console.log(passwordLength);
+  var passwordLength = window.prompt("Enter Leangth of Password:");
 
-    if (passwordLength < 8) {
-        window.alert("Error: Must be at least 8 characters!")
+    if (passwordLength < 8 || passwordLength > 128) {
+        window.prompt("Error: Must be betweeen 8 and 126 characters!");
+    } else {
+        console.log(passwordLength);
     }
+
+  var 
 
 }
