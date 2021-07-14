@@ -71,6 +71,3 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// var thisPassword = that;
-// fix event listeners
-// generatePassword not functioning properly
